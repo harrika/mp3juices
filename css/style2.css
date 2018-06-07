@@ -1,0 +1,74 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {    
+    font-family: tahoma;
+}
+.row {
+    width: 960px;
+    margin:0 auto;
+}
+
+header {   
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/hydra.jpg");   
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero {
+    position: absolute;
+    width: 960px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+
+header h1 {
+    color: #fff;    
+}
+
+.nav-main {
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+.nav-main li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav-main li a {
+    color:white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+.nav-main li a:hover {
+    color:#e67e22;   
+    border-bottom: solid 2px #e67e22;
+    transition:all 0.3s ease-in; 
+    padding: 15px 0;
+}
+.logo img {
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+}
+.btn {
+    border: 1px solid #e67e22;
+    padding: 10px 30px;
+    color: #e67e22;
+    text-decoration:none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.buttons {
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+    color:#fff;
+    transition: all 0.2s ease-in;
+}
